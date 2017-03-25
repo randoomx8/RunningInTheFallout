@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package
+    name="Running in the fallout alpha"
+    description="By Waldo, Alem and Bonk"
+    image=""
+    show_in_campaign_menu="0"
+    show_in_quick_match_mods="1"
+</package>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<weapon key='riot_shotgun.weapon' />
+	<weapon key='assault_rifle_west.weapon' />
+	<weapon key='laser_rifle.weapon' />
+	<weapon key='light_machine_gun.weapon' />
+	<weapon key='12mm_smg.weapon' />
+	<weapon key='plasma_rifle.weapon' />
+</resources>

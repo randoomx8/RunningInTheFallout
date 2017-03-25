@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<weapon key='cowboy_repeater.weapon' />
+	<weapon key='hunting_rifle.weapon' />
+	<weapon key='9mm_smg.weapon' />
+	<weapon key='light_machine_gun.weapon' />
+	<weapon key='hunting_rifle_scoped.weapon' />
+      
+	<weapon key='caravan_shotgun.weapon' />
+	<weapon key='lever_action_shotgun.weapon' />
+	<weapon key='12mm_smg.weapon' />
+
+
+</resources>

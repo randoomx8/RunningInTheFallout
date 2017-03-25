@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <weapon key='service_rifle.weapon' />
+  <weapon key='10mm_smg.weapon' />
+  <weapon key='light_machine_gun.weapon' />
+  <weapon key='hunting_rifle_scoped.weapon' />
+  <weapon key='sniper_rifle.weapon' />
+
+  <weapon key='pump_shotgun.weapon' />
+
+  <weapon key='assault_carbine.weapon' />
+</resources>

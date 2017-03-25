@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<weapon key='pump_shotgun.weapon' />
+	<weapon key='assault_carbine.weapon' />
+	<weapon key='light_machine_gun.weapon' />
+</resources>

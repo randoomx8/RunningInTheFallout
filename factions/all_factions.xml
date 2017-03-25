@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<factions>
+	<faction file="new_california_republic.xml" />
+	<faction file="brotherhood.xml" />
+	<faction file="caesars_legion.xml" />
+</factions>

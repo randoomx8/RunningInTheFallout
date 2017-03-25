@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<weapon key='lever_action_shotgun.weapon' />
+	<weapon key='12mm_smg.weapon' />
+	<weapon key='light_machine_gun.weapon' />
+</resources>
