@@ -30,7 +30,7 @@
 
     <hud_icon filename="hud_lmg.png" />
     <commonness value="0.05" />
-    <inventory encumbrance="11.0" price="4.0" />
+    <inventory encumbrance="11.0" price="25.0" />
 
 
 	<capacity value="0" source="rank" source_value="0.0" />

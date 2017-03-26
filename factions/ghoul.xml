@@ -59,13 +59,13 @@
 		<character filename="default_male.character" />
 		<ai filename="ghoul.ai" />
 
-    <models file="grey_default_basic.models" />
-		<models file="grey_default.models" />
+    <models file="ghoul_default_basic.models" />
+		<models file="ghoul_default.models" />
 
-		<resources file="ghoul.resources" />
-		<resources file="grey_primaries.resources" />
-		<resources file="grey_secondaries.resources" />
-		<resources file="grey_default.resources" />
+		<resources file="common.resources" />
+		<resources file="ghoul_primaries.resources" />
+		<resources file="ghoul_secondaries.resources" />
+		<resources file="ghoul_default.resources" />
 
 		<item_class_existence_config>
 			<!-- secondaries -->
@@ -123,7 +123,7 @@
 	<!-- -------------- -->
 	<soldier name="medic" spawn_score="0.0" copy_from="default">
 		<resources file="common_medic.resources" />
-		<resources file="grey_primaries.resources" />
+		<resources file="ghoul_primaries.resources" />
 
 		<item_class_existence_config>
 			<!-- secondaries -->
