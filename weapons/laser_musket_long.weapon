@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_primary_sniper.weapon" key="laser_musket_long.weapon">
+    <tag name="sniper" />
+    <specification 
+  retrigger_time="-1.0" 
+  accuracy_factor="1.0" 
+  sustained_fire_grow_step="2.8" 
+  sustained_fire_diminish_rate="0.9" 
+  magazine_size="6" 
+  can_shoot_standing="1" 
+  suppressed="0" 
+  name="Long Laser Musket" 
+  class="2" 
+  reload_one_at_a_time="0" 
+  sight_range_modifier="1.5" 
+  projectile_speed="200.0" 
+  barrel_offset="0.36" 
+  projectiles_per_shot="1" />
+    <animation key="recoil" ref="27" />
+    <animation key="cycle" ref="30" />
+    <animation key="reload" ref="35" />
+    <sound key="fire" fileref="laser_rifle_fire.wav" volume="0.28" />
+    <sound key="cycle" fileref="sniper_cycle.wav" />
+    <sound key="magazine_out" fileref="plasma_clip_in.wav" />
+    <sound key="magazine_in" fileref="plasma_clip_out.wav" />
+    <sound key="cycle_out" fileref="plasma_clip_out.wav" />
+    <sound key="cycle_in" fileref="plasma_rifle_reload.wav" volume="0.3" />
+    <sound class="impact" fileref="rifle_drop.wav" />
+    <model filename="laser_musket_long.xml" />
+
+    <hud_icon filename="hud_laser_musket_long.png" />
+    <commonness value="0.01" />
+    <inventory encumbrance="4.0" price="4.0" />
+
+	<capacity value="0" source="rank" source_value="0.0" />
+    <capacity value="1" source="rank" source_value="0.1" />
+
+    <projectiles_per_shot value="1" />
+    <weak_hand_hold offset="0.3" />
+    <projectile file="laser_shot.projectile">
+        <result class="hit" kill_probability="1.0" kill_decay_start_time="0.65" kill_decay_end_time="0.85" />
+    </projectile>
+ 
+    <modifier class="speed" value="-0.03" />
+</weapon>

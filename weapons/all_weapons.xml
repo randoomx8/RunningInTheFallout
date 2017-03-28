@@ -68,6 +68,7 @@
 	<weapon file="sg552.weapon" />
 	<weapon file="imi_negev.weapon"/>
 	<weapon file="caravan_shotgun.weapon" />
+	<weapon file="single_shotgun.weapon" />
 	<weapon file="scorpion-evo.weapon" />
 	<weapon file="m79.weapon" />
 

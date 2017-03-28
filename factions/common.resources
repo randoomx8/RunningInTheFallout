@@ -19,6 +19,7 @@
 	<weapon key='honey_badger.weapon' /> 
 	<weapon key='m60e4.weapon' /> 
 	<weapon key='22mm_mg.weapon' />
+	<weapon key='single_shotgun.weapon' />
 	<weapon key='anti_materiel_rifle.weapon' />  
 	<weapon key='mk23.weapon' enabled="0" />   
 

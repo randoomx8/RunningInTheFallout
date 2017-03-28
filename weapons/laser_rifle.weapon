@@ -37,6 +37,7 @@
 
     <projectile file="laser_shot.projectile">
 	    <result class="hit" kill_probability="0.5" kill_decay_start_time="0.33" kill_decay_end_time="0.68" />
+		<trail key="f_laser.trail" />
     </projectile>
     <modifier class="speed" value="-0.03" />
 </weapon>

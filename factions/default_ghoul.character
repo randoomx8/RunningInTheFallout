@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<character filename="ghoul.character">
+
+  <sound key="death" fileref="ghoul_death.wav" volume="0.55" />
+
+</character>

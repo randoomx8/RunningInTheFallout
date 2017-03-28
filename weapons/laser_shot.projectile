@@ -61,6 +61,6 @@
     <effect class="result" key="character" ref="Burst" use_surface_color="1" />
     <effect class="result" key="character" ref="LowDust" />
 	
-    <trail probability="0.0" />
+    <trail probability="1.0" />
 
 </projectile>
