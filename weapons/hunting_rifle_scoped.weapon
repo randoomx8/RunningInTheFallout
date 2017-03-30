@@ -19,7 +19,7 @@
     <animation key="recoil" ref="27" />
     <animation key="cycle" ref="30" />
     <animation key="reload" ref="35" />
-    <sound key="fire" fileref="m24a2_shot.wav" volume="0.9" />
+    <sound key="fire" fileref="psg90_shot.wav" volume="0.95" />
     <sound key="cycle" fileref="sniper_cycle.wav" />
     <sound key="magazine_out" fileref="sniper_clip_out.wav" />
     <sound key="magazine_in" fileref="sniper_clip_in.wav" />
@@ -30,7 +30,7 @@
 
     <hud_icon filename="hud_hunting_rifle_scoped.png" />
     <commonness value="0.01" />
-    <inventory encumbrance="11.0" price="4.0" />
+    <inventory encumbrance="7.2" price="4.0" />
 
 	<capacity value="0" source="rank" source_value="0.0" />
     <capacity value="1" source="rank" source_value="0.1" />

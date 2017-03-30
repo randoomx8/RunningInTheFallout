@@ -12,7 +12,7 @@
   suppressed="0" 
   name="Plasma Rifle" 
   class="4" 
-  projectile_speed="130.0" />
+  projectile_speed="135.0" />
 
     <animation key="recoil" ref="12" />
     <animation key="recoil" ref="13" />
@@ -21,16 +21,16 @@
 
     <animation state_key="celebrate_shoot" animation_key="celebrating, shooting" />
 
-    <sound key="fire" fileref="plasma_rifle_fire.wav" pitch_variety="0.1" volume="0.33" />
-    <sound key="magazine_out" fileref="plasma_rifle_reload.wav" />
-    <sound key="magazine_in" fileref="plasma_rifle_reload.wav" />
+    <sound key="fire" fileref="plasma_rifle_fire.wav" pitch_variety="0.1" volume="0.42" />
+    <sound key="magazine_out" fileref="plasma_rifle_reload.wav" volume="0.3" />
+    <sound key="magazine_in" fileref="plasma_clip_in.wav" />
     <sound key="cycle" fileref="rifle_chamber.wav" />
     <sound class="impact" fileref="rifle_drop.wav" />
     <model filename="plasma_rifle.xml" />
 
     <hud_icon filename="hud_plasma_rifle.png" />
     <commonness value="0.06" />
-    <inventory encumbrance="11.0" price="15.0" />
+    <inventory encumbrance="8.0" price="15.0" />
 
 	<capacity value="0" source="rank" source_value="0.0" />
     <capacity value="1" source="rank" source_value="0.3" />

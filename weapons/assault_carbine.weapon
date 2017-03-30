@@ -21,16 +21,16 @@
 
     <animation state_key="celebrate_shoot" animation_key="celebrating, shooting" />
 
-    <sound key="fire" fileref="assault_rifle_fire.wav" pitch_variety="0.05" volume="0.53" />
-    <sound key="magazine_out" fileref="null.wav" />
-    <sound key="magazine_in" fileref="assault_rifle_reload.wav" />
+    <sound key="fire" fileref="m16a4_shot.wav" pitch_variety="0.05" volume="0.53" />
+    <sound key="magazine_out" fileref="rifle_clip_out.wav" />
+    <sound key="magazine_in" fileref="rifle_clip_in.wav" />
     <sound key="cycle" fileref="rifle_chamber.wav" />
     <sound class="impact" fileref="rifle_drop.wav" />    
     <model filename="assault_rifle4.xml" />
 
     <hud_icon filename="hud_assault_carbine.png" />
     <commonness value="0.06" />
-    <inventory encumbrance="11.0" price="10.0" />
+    <inventory encumbrance="6.0" price="10.0" />
 
 	<capacity value="0" source="rank" source_value="0.0" />
     <capacity value="1" source="rank" source_value="0.2" />

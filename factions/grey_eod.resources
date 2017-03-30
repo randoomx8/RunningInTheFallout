@@ -3,7 +3,13 @@
 	<weapon key='riot_shotgun.weapon' />
 	<weapon key='assault_rifle_west.weapon' />
 	<weapon key='laser_rifle.weapon' />
-	<weapon key='light_machine_gun.weapon' />
+	<weapon key='tri_laser_rifle.weapon' />
 	<weapon key='12mm_smg.weapon' />
 	<weapon key='plasma_rifle.weapon' />
+	<weapon key='gatling_laser.weapon' />
+
+	<carry_item key='vest1.carry_item' enabled="0" />
+	<carry_item key='vest2.carry_item' enabled="1" />
+	<carry_item key='vest3.carry_item' enabled="0" />
+	<carry_item key='eodvest.carry_item' enabled="1" />
 </resources>

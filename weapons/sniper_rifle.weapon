@@ -4,7 +4,7 @@
     <specification 
 	retrigger_time="0.75" 
 	accuracy_factor="1.0" 
-	sustained_fire_grow_step="3.0" 
+	sustained_fire_grow_step="2.5" 
 	sustained_fire_diminish_rate="1.0" 
 	magazine_size="5" 
 	can_shoot_standing="1" 
@@ -13,7 +13,7 @@
 	class="4" 
 	burst_shots="1"
 	reload_one_at_a_time="0" 
-	sight_range_modifier="1.45" 
+	sight_range_modifier="1.65" 
 	projectile_speed="200.0" 
 	barrel_offset="0.5" 
 	projectiles_per_shot="1" />
@@ -33,7 +33,7 @@
     <model filename="sniper_rifle.xml" />
     <hud_icon filename="hud_sniper_rifle.png" />
     <commonness value="0.01" />
-    <inventory encumbrance="11.0" price="8.0" />
+    <inventory encumbrance="8.0" price="8.0" />
 
 	<capacity value="0" source="rank" source_value="0.0" />
     <capacity value="1" source="rank" source_value="0.2" />

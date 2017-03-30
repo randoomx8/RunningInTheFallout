@@ -9,4 +9,5 @@
   <weapon key='pump_shotgun.weapon' />
 
   <weapon key='assault_carbine.weapon' />
+  <weapon key='battle_rifle.weapon' />
 </resources>

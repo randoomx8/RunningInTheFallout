@@ -9,6 +9,7 @@
 	<weapon key='caravan_shotgun.weapon' />
 	<weapon key='lever_action_shotgun.weapon' />
 	<weapon key='12mm_smg.weapon' />
+	<weapon key='brush_gun.weapon' />
 
 
 </resources>

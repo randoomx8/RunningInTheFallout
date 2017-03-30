@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <projectile class="bullet" name="Lahti L-39" slot="1" pulldown_in_air="4"  >
-    <result class="blast" radius="1.35" damage="0.16" push="0.03" decal="0" />
+    <result class="blast" radius="1.4" damage="0.16" push="0.03" decal="0" />
     <trigger class="impact" />
     <rotation class="motion" />
 
@@ -41,21 +41,9 @@
 
     <sound class="result" key="static_object" copy="terrain" />
     
-    <effect class="result" key="other" ref="Burst" use_surface_color="1" />
-    <effect class="result" key="other" ref="LowDust"/>
-
     <effect class="result" key="terrain" ref="Burst" use_surface_color="1" />
-    <effect class="result" key="terrain" ref="LowDust" />
-    <effect class="result" type="splat_map" surface_tag="" size="1.0" atlas_index="0" layer="1" />
-    <effect class="result" type="splat_map" surface_tag="" size="1.0" atlas_index="4" layer="0" />
-    <effect class="result" type="splat_map" surface_tag="" size="1.0" atlas_index="0" layer="2" additive="0" /> <!-- remove top snow everywhere -->
-
     <effect class="result" key="vehicle" ref="Burst" use_surface_color="1" />
-    <effect class="result" key="vehicle" ref="LowDust" />
     <effect class="result" key="static_object" ref="Burst" use_surface_color="1" />
-    <effect class="result" key="static_object" ref="LowDust" />
-    <effect class="result" key="character" ref="Burst" use_surface_color="1" />
-    <effect class="result" key="character" ref="LowDust" />
 	
     <trail probability="1.0" />
 

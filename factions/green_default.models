@@ -92,4 +92,8 @@
 	<model filename="soldier_california_sarge2.xml">
 		<requirement class="rank" range="0.6 10000" />
 	</model>
+
+	<model filename="soldier_california_elite.xml">
+		<requirement class="rank" range="1 10000" />
+	</model>
 </models>

@@ -3,4 +3,10 @@
 	<weapon key='lever_action_shotgun.weapon' />
 	<weapon key='12mm_smg.weapon' />
 	<weapon key='light_machine_gun.weapon' />
+	<weapon key='grenade_launcher.weapon' />
+
+	<carry_item key='vest1.carry_item' enabled="0" />
+	<carry_item key='vest2.carry_item' enabled="0" />
+	<carry_item key='vest3.carry_item' enabled="0" />
+	<carry_item key='eodvest.carry_item' enabled="1" />
 </resources>

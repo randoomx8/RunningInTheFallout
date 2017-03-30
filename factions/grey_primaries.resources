@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 	<weapon key='assault_rifle_west.weapon' />
-	<weapon key='10mm_smg.weapon' />
+	<weapon key='laser_pistol.weapon' />
 	<weapon key='laser_rifle.weapon' />
 	<weapon key='light_machine_gun.weapon' />
 	<weapon key='sniper_rifle.weapon' />

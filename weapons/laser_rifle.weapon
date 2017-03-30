@@ -21,23 +21,22 @@
 
     <animation state_key="celebrate_shoot" animation_key="celebrating, shooting" />
 
-    <sound key="fire" fileref="laser_rifle_fire.wav" pitch_variety="0.1" volume="0.66" />
-    <sound key="magazine_out" fileref="null.wav" />
-    <sound key="magazine_in" fileref="laser_rifle_reload.wav" />
+    <sound key="fire" fileref="laser_rifle_fire.wav" pitch_variety="0.1" volume="0.25" />
+    <sound key="magazine_out" fileref="laser_rifle_reload.wav" volume="0.3" />
+    <sound key="magazine_in" fileref="laser_rifle_reload.wav" volume="0.0" />
     <sound key="cycle" fileref="rifle_chamber.wav" />
     <sound class="impact" fileref="rifle_drop.wav" />
     <model filename="laser_rifle.xml" />
 
     <hud_icon filename="hud_laser_rifle.png" />
     <commonness value="0.08" />
-    <inventory encumbrance="11.0" price="3.0" />
+    <inventory encumbrance="5.5" price="3.0" />
 
 	<capacity value="0" source="rank" source_value="0.0" />
     <capacity value="1" source="rank" source_value="0.05" />
 
     <projectile file="laser_shot.projectile">
 	    <result class="hit" kill_probability="0.5" kill_decay_start_time="0.33" kill_decay_end_time="0.68" />
-		<trail key="f_laser.trail" />
     </projectile>
     <modifier class="speed" value="-0.03" />
 </weapon>

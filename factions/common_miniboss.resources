@@ -1,29 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources clear_weapons="1">
 	<!-- always load common first; it's the one that clears the initial weapon resources -->
-	<weapon key='p90.weapon' />
-	<weapon key='benelli_m4.weapon' />
-	<weapon key='f2000.weapon' />
-
-
-	<weapon key='ns2000.weapon' />
-	<weapon key='stoner_lmg.weapon' />
-	<weapon key='aa-12.weapon' />
-	<weapon key='mgl_flasher.weapon' /> 
-	<weapon key='barrett_m107.weapon' />
-	<weapon key='xm8.weapon' /> 
+ 
 	<weapon key='microgun.weapon' /> 
+ 
 
-	<weapon key='benelli_m4_supp.weapon' /> 
-	<weapon key='mg42.weapon' /> 
-  
-	<weapon key='milkor_mgl.weapon' /> 
-	<weapon key='m202_flash.weapon' />
 	<weapon key='anti_materiel_rifle.weapon' />
 	<weapon key='anabelle.weapon' />
-	<weapon key='gatling_laser.weapon' /> 
+	<weapon key='gatling_laser.weapon' />
+	<weapon key='grenade_launcher.weapon' />
+	<weapon key='this_machine.weapon' /> 
  
-	<weapon key='pecheneg_bullpup.weapon' />  
+  
    
 
 	<carry_item key='vest1.carry_item' enabled="0" />			

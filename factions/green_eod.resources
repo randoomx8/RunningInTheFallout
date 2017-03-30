@@ -3,4 +3,11 @@
 	<weapon key='pump_shotgun.weapon' />
 	<weapon key='assault_carbine.weapon' />
 	<weapon key='light_machine_gun.weapon' />
+	<weapon key='battle_rifle.weapon' />
+	<weapon key='this_machine.weapon' />
+
+	<carry_item key='vest1.carry_item' enabled="0" />
+	<carry_item key='vest2.carry_item' enabled="0" />
+	<carry_item key='vest3.carry_item' enabled="0" />
+	<carry_item key='eodvest.carry_item' enabled="1" />
 </resources>

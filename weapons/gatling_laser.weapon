@@ -14,7 +14,7 @@
   name="Gatling Laser" 
   class="0" 
   barrel_offset="0.7"
-  barrel_offset_3d="0 -0.07 0.6"
+  barrel_offset_3d="0 -0.06 0.7"
   projectile_speed="150.0"
   projectiles_per_shot="1" />
 
@@ -29,7 +29,7 @@
 	<animation state_key="walking" animation_key="walking, hip fire" />
 	<animation state_key="running" animation_key="walking, hip fire" />  
     
-    <sound key="fire" fileref="laser_shot.wav" pitch_variety="0.12" volume="0.28"/>
+    <sound key="fire" fileref="laser_shot.wav" pitch_variety="0.12" volume="0.26"/>
     <sound key="magazine_out" fileref="mg_clip_out.wav" />
     <sound key="magazine_in" fileref="mg_clip_in.wav" />
     <sound key="cycle" fileref="rifle_chamber.wav" />
@@ -38,7 +38,7 @@
 
     <hud_icon filename="hud_gatling_laser.png" />
     <commonness value="0.01" can_respawn_with="0"/>
-    <inventory encumbrance="20.0"  price="45.0" in_stock="0"/>
+    <inventory encumbrance="20.0"  price="50.0" in_stock="0"/>
 
     <weak_hand_hold offset="0.4" />
     <projectile file="laser_shot.projectile">

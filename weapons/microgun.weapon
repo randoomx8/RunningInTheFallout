@@ -3,7 +3,7 @@
     <tag name="machine gun" />
     <specification 
   retrigger_time="0.052" 
-  accuracy_factor="0.6" 
+  accuracy_factor="0.62" 
   sustained_fire_grow_step="1.5" 
   sustained_fire_diminish_rate="0.7" 
   magazine_size="240" 
@@ -13,8 +13,8 @@
   suppressed="0" 
   name="Minigun" 
   class="0" 
-  barrel_offset="0.6"
-  barrel_offset_3d="0 -0.1 0.6"
+  barrel_offset="0.7"
+  barrel_offset_3d="0 -0.05 0.7"
   projectile_speed="120.0"
   projectiles_per_shot="1" />
 
@@ -29,7 +29,7 @@
 	<animation state_key="walking" animation_key="walking, hip fire" />
 	<animation state_key="running" animation_key="walking, hip fire" />  
     
-    <sound key="fire" fileref="pecheneg_bullpup_shot.wav" pitch_variety="0.1" volume="0.3"/>
+    <sound key="fire" fileref="pecheneg_bullpup_shot.wav" pitch_variety="0.1" volume="1.7"/>
     <sound key="magazine_out" fileref="mg_clip_out.wav" />
     <sound key="magazine_in" fileref="mg_clip_in.wav" />
     <sound key="cycle" fileref="rifle_chamber.wav" />

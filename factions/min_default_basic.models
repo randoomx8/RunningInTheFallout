@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<models>
+	<model filename="soldier_minutemen.xml" />
+	<model filename="soldier_minutemen2.xml" />
+	<model filename="soldier_minutemen3.xml" />
+	<model filename="soldier_minutemen4.xml" />
+	<model filename="soldier_minutemen5.xml" />
+
+
+</models>

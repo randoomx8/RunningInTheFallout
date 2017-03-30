@@ -5,23 +5,15 @@
 	<weapon key='riot_shield.weapon' />
 	<weapon key='cover_resource.weapon' />
 	<weapon key='mg_resource.weapon' />
-	<weapon key='tank_trap_resource.weapon' />     
-	<weapon key='m79.weapon' />
-	<weapon key='binoculars.weapon' />  
-	<weapon key='javelin.weapon' />  
-	<weapon key='m712.weapon' />
-	<weapon key='model_29.weapon' /> 
-	<weapon key='sawnoff.weapon' /> 
-	<weapon key='beretta_93r.weapon' /> 
-	<weapon key='claymore_resource.weapon' /> 
-	<weapon key='wrench.weapon' enabled="0" />   
-	<weapon key='mp7.weapon' /> 
-	<weapon key='honey_badger.weapon' /> 
-	<weapon key='m60e4.weapon' /> 
+     
+	<weapon key='grenade_rifle.weapon' />
+	<weapon key='recharger_rifle.weapon' />
+	<weapon key='varmint_rifle.weapon' />
+	<weapon key='556mm_pistol.weapon' />
+ 
 	<weapon key='22mm_mg.weapon' />
-	<weapon key='single_shotgun.weapon' />
 	<weapon key='anti_materiel_rifle.weapon' />  
-	<weapon key='mk23.weapon' enabled="0" />   
+   
 
 
 
@@ -43,8 +35,7 @@
 
 	<!-- common vehicles -->
 
-	<vehicle key="humvee.vehicle" />
-	<vehicle key="humvee_gl.vehicle" />  
+  
 
 	<vehicle key="armored_truck.vehicle" />
 	<vehicle key="radar_truck.vehicle" />
@@ -163,11 +154,6 @@
 	<vehicle key="special_crate_wood9.vehicle" />
 	<vehicle key="special_crate_wood10.vehicle" />    
       
-
-	<vehicle key="radar_tank.vehicle" />
-
-	<vehicle key="vulcan_tank.vehicle" />
-	<vehicle key="buggy.vehicle" />
 
 	<call key="mortar1.call" />
 	<call key="mortar2.call" />

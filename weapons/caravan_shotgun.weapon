@@ -12,13 +12,13 @@
     reload_one_at_a_time="0" 
     sight_range_modifier="1.0" 
     projectile_speed="105.0" 
-    projectiles_per_shot="10" />
+    projectiles_per_shot="11" />
     <animation key="recoil" ref="27" />
     <animation key="cycle" ref="28" />
-    <animation key="reload" animation_key="reloading, aa-12" />
-    <sound key="fire" fileref="caravan_shotgun_fire.wav" pitch_variety="0.1" volume="0.82" />
-    <sound key="magazine_out" fileref="rifle_clip_out.wav" />
-    <sound key="magazine_in" fileref="rifle_clip_in.wav" />
+    <animation state_key="reload" animation_key="reloading, m79" />
+    <sound key="fire" fileref="aa-12_shot.wav" pitch_variety="0.1" volume="0.82" />
+    <sound key="magazine_out" fileref="revolver_cycle_in.wav" />
+    <sound key="magazine_in" fileref="revolver_magazine_out.wav" volume="1" />
     <sound key="cycle" fileref="rifle_chamber.wav" />
     <sound class="impact" fileref="rifle_drop.wav" />
     <model filename="caravan_shotgun.xml" />
@@ -26,6 +26,9 @@
     <hud_icon filename="hud_caravan_shotgun.png" />
     <commonness value="0.02" />
     <inventory encumbrance="5.0" price="3.0" />
+
+	<capacity value="0" source="rank" source_value="0.0" />
+    <capacity value="1" source="rank" source_value="0.05" />
 	
 
     <weak_hand_hold offset="0.2" />

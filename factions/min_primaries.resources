@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <weapon key='handmade_rifle.weapon' />
+  <weapon key='laser_musket.weapon' />
+  <weapon key='semi_assault_rifle.weapon' />
+  <weapon key='auto_assault_rifle.weapon' />
+  <weapon key='laser_musket_long.weapon' />
+
+  <weapon key='pump_shotgun.weapon' />
+
+  <weapon key='modified_handmade_rifle.weapon' />
+  <weapon key='radium_rifle.weapon' />
+  <weapon key='plasma_rifle.weapon' />
+</resources>

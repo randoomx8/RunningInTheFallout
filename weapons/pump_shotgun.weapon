@@ -27,7 +27,7 @@
 
     <hud_icon filename="hud_pump_shotgun.png" />
     <commonness value="0.02" />
-    <inventory encumbrance="11.0" price="3.0" />
+    <inventory encumbrance="6.0" price="3.0" />
 
 	<capacity value="0" source="rank" source_value="0.0" />
     <capacity value="1" source="rank" source_value="0.05" />

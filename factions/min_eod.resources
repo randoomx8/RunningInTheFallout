@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<weapon key='pump_shotgun.weapon' />
+	<weapon key='auto_assault_rifle.weapon' />
+	<weapon key='modified_handmade_rifle.weapon' />
+	<weapon key='radium_rifle.weapon' />
+</resources>

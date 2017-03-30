@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<faction name="Caesars Legion" color="0.7 0.1 0.1" firstnames_file="english_firstnames.txt" lastnames_file="no_lastnames.txt" chat_icon_filename="chat_icon_soldier_legion.png" chat_icon_commander_filename="chat_icon_commander_legion.png" campaign_completion_icon_filename="campaign_win_2.png">
+<faction name="Caesars Legion" color="0.7 0.1 0.1" firstnames_file="russian_firstnames.txt" lastnames_file="russian_lastnames.txt" chat_icon_filename="chat_icon_soldier_brown.png" chat_icon_commander_filename="chat_icon_commander_brown.png" campaign_completion_icon_filename="campaign_win_2.png">
 	<rank xp="0.0" name="Private">
 		<hud_icon filename="hud_rank0.png" />
 	</rank>  
@@ -179,7 +179,7 @@
 	<!-- -------------- -->
 	<!--    EOD group   -->
 	<!-- -------------- -->
-	<soldier name="eod" spawn_score="0.007" squad_size_xp_cap="0.0">
+	<soldier name="eod" spawn_score="0.01" squad_size_xp_cap="0.0">
 		<character filename="default_male.character" />
 		<ai filename="eod.ai" />
 		<model filename="soldier_legioneod.xml" />

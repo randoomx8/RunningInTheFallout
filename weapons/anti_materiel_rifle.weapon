@@ -2,7 +2,7 @@
 <weapon file="base_primary_sniper.weapon" key="anti_materiel_rifle.weapon">
     <tag name="sniper" />
     <specification 
-  retrigger_time="1.0" 
+  retrigger_time="1.8" 
   accuracy_factor="2.5" 
   sustained_fire_grow_step="2.0" 
   sustained_fire_diminish_rate="0.4" 
@@ -26,11 +26,11 @@
     <animation key="walking" ref="31" />
     <animation key="running" animation_key="running, lahti_l39" />
 	
-    <sound key="fire" fileref="antimater_fire.wav" volume="1.4" />
+    <sound key="fire" fileref="antimater_fire.wav" volume="0.6" />
     <sound key="cycle" fileref="lahti_l39_cycle.wav" />
-    <sound key="magazine_out" fileref="null.wav" />
+    <sound key="magazine_out" fileref="m79_clip_out.wav" />
     <sound key="magazine_in" fileref="antimater_reload.wav" />
-    <sound key="cycle_out" fileref="null.wav" />
+    <sound key="cycle_out" fileref="plasma_clip_out.wav" />
     <sound key="cycle_in" fileref="lahti_l39_cycle.wav" />
     <sound class="impact" fileref="shield_drop.wav" />
     <model filename="anti_materiel_rifle.xml" />
