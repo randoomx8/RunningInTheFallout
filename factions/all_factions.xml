@@ -4,4 +4,5 @@
 	<faction file="new_california_republic.xml" />
 	<faction file="brotherhood.xml" />
 	<faction file="caesars_legion.xml" />
+	<faction file="ghoul.xml" />
 </factions>
