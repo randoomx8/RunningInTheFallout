@@ -3,7 +3,7 @@
     <result class="hit" />
     <trigger class="impact" />
     <rotation class="motion" />
-    <model mesh_filename="laser_shot.xml" />
+    <model mesh_filename="laser_shot2.xml" />
 
     <sound class="result" key="terrain" fileref="ricochet1.wav" />
     <sound class="result" key="terrain" fileref="ricochet2.wav" />
@@ -44,12 +44,15 @@
     <sound class="result" key="vehicle" tag="metal_dumpster" file="dumpster_bullet_02.wav" pitch_variety="0.4" volume="0.8" />              
 
     <sound class="result" key="static_object" copy="terrain" />
+	
+	<effect class="result" key="terrain" ref="Burst" use_surface_color="1" />
+    <effect class="result" key="terrain" ref="LowDust" />
     
     <effect class="result" key="terrain" ref="Burst" use_surface_color="1" />
     <effect class="result" key="vehicle" ref="Burst" use_surface_color="1" />
     <effect class="result" key="static_object" ref="Burst" use_surface_color="1" />
     <effect class="result" key="shield" ref="ShieldBurst" />
 	
-    <trail probability="0.0" />
+    <trail probability="1.0" />
 
 </projectile>
