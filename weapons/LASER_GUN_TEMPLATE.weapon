@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<weapon file="base_primary.weapon" key="lstmplt.weapon">
+<weapon file="base_primary.weapon" key="lstmplt.weapon"> // LASER GUN TEMPLATE, MAKE SURE TO EDIT THE STUFF YOU NEED
     <tag name="assault" />
     <specification 
   retrigger_time="0.0" 
@@ -35,7 +35,7 @@
 	<capacity value="0" source="rank" source_value="0.0" />
     <capacity value="1" source="rank" source_value="0.05" />
 
-    <projectile file="laser_shot.projectile">
+    <projectile file="laser_shot.projectile"> // FROM HERE DOWN DONT CHANGE ANYTHING
 	    <result class="hit" kill_probability="0.0" kill_decay_start_time="0.0" kill_decay_end_time="0.0" />
 		<trail key="f_laser.trail" />
     </projectile>

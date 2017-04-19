@@ -1,4 +1,4 @@
-material F_Laser {
+material F_Plasma {
    receive_shadows off
    technique {
       pass {
